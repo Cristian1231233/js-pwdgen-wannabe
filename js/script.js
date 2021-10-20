@@ -15,6 +15,6 @@ console.log(cognome);
 console.log(colorePreferito);
 
 document.getElementById('stampa').innerHTML = `
-      Nome, Cognome e colore preferito: ${nome} ${cognome} ${colorePreferito} 21
+     ${nome} ${cognome} ${colorePreferito} 21
 
 `;
