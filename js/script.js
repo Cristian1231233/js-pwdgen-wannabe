@@ -10,11 +10,13 @@ const nome = prompt('Come ti chiami?');
 const cognome = prompt('Il tuo cognome?');
 const colorePreferito = prompt('Colore preferito?');
 
+
 console.log(nome);
 console.log(cognome);
 console.log(colorePreferito);
 
+
 document.getElementById('stampa').innerHTML = `
-     ${nome} ${cognome} ${colorePreferito} 21
+     ${nome}${cognome}${colorePreferito}21
 
 `;
